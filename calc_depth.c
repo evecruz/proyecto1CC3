@@ -21,9 +21,13 @@ unsigned char normalized_displacement(int dx, int dy,
 
 }
 
+unsigned char distancia_eucleidea(int x1, int y1, int x2, int y2){
+	
+}
+
 void calc_depth(unsigned char *depth_map, unsigned char *left,
                 unsigned char *right, int image_width, int image_height,
                 int feature_width, int feature_height, int maximum_displacement) {
 
-	/* YOU CODE HERE*/
+
 }
