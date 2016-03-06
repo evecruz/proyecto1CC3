@@ -21,10 +21,16 @@ unsigned char normalized_displacement(int dx, int dy,
 
 }
 
-unsigned char distancia_eucleidea(int x1, int y1, int x2, int y2){
+int pixVal(int x, int y, int feature_width, int feature_height){
+	if [((x-feature_width)<0)|| ((y-feature_height<0))]{ //lado izquierdo de
+		return 0;
+	}else{
+		return 1;
+	}
+	
+	
 	
 }
-
 void calc_depth(unsigned char *depth_map, unsigned char *left,
                 unsigned char *right, int image_width, int image_height,
                 int feature_width, int feature_height, int maximum_displacement) {
