@@ -52,7 +52,7 @@ void calc_depth(unsigned char *depth_map, unsigned char *left,
 
 int i,j;
 
-   for(i =0;i<image_width,i++){
+   for(i =0;i<image_width,i++){                //recorremos la imagen izq derecha arriba abajo.
          for(j = 0;j<image_height;j++){
 
           }
