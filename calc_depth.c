@@ -50,5 +50,13 @@ void calc_depth(unsigned char *depth_map, unsigned char *left,
                 unsigned char *right, int image_width, int image_height,
                 int feature_width, int feature_height, int maximum_displacement) {
 
+int i,j;
+
+   for(i =0;i<image_width,i++){
+         for(j = 0;j<image_height;j++){
+
+          }
+    }
+
 
 }
