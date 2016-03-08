@@ -50,7 +50,7 @@ void calc_depth(unsigned char *depth_map, unsigned char *left,
                 unsigned char *right, int image_width, int image_height,
                 int feature_width, int feature_height, int maximum_displacement) {
 unsigned char cuadrito* = malloc((2 * feature_width + 1) * (2* feature_height + 1));// Creamos el cuadrito del lado izq
-
+unsigned char desplazamiento;
 int i,j;
 
    for(i =0;i<image_width,i++){                //recorremos la imagen izq derecha arriba abajo.
@@ -60,7 +60,7 @@ int i,j;
 	 	   	*cuadrito=(y*feature_width+x);//paso a vector el cuadrito
 	 	   }
           	}
-          	normalized_displacement()
+          	desplazamiento=normalized_displacement(x,y,maximum_displacement);
          }
          	
          }
