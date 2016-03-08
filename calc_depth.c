@@ -61,6 +61,11 @@ int i,j;
 	 	   }
           	}
           	desplazamiento=normalized_displacement(x,y,maximum_displacement);
+          	for(ii=0;ii<maximum_displacement;ii++){
+          		for(jj=0;jj<maximum_displacement;jj++){
+          			//llamar a pixVal para saber si es valido el pixel
+          		}
+          	}
          }
          	
          }
