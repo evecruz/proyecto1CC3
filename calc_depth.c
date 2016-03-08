@@ -49,6 +49,7 @@ int distance(int feature_height, int feature_width{
 void calc_depth(unsigned char *depth_map, unsigned char *left,
                 unsigned char *right, int image_width, int image_height,
                 int feature_width, int feature_height, int maximum_displacement) {
+unsigned char cuadrito* = malloc((2 * feature_width + 1) * (2* feature_height + 1));
 
 int i,j;
 
