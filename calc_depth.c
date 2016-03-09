@@ -58,12 +58,12 @@ int i,j;
 int 
    for(i =0;i<image_width,i++){                //recorremos la imagen izq derecha arriba abajo.
       for(j = 0;j<image_height;j++){
-	 	       cuadritoIzq[]
+	 	 
         int pos = 0;
         for(x=0;x<feature_width;x++){
-	 	      for(y=0;y<feature_height;y++){
-	 	   	   cuadritoIzq[pos]=left[x*feature_width+y];//paso a vector el cuadrito
-           pos++;
+	   for(y=0;y<feature_height;y++){
+	    cuadritoIzq[pos]=left[x*feature_width+y];//paso a vector el cuadrito
+             pos++;
 	 	   }
           	}
           	desplazamiento=normalized_displacement(x,y,maximum_displacement);
