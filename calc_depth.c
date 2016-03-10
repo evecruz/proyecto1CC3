@@ -100,8 +100,8 @@ int posD=0;
         int despx = distance[0];
         int despy = distance[1];
           	desplazamiento=normalized_displacement(despx,despy,maximum_displacement);
-          	for(ii=0;ii<maximum_displacement;ii++){
-          		for(jj=0;jj<maximum_displacement;jj++){
+          	//for(ii=0;ii<maximum_displacement;ii++){
+          	//	for(jj=0;jj<maximum_displacement;jj++){
           			
           		}
           	}
